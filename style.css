@@ -12,7 +12,7 @@ hr {
 }
 
 .slider {
-    height: 300px;
+    height: 400px;
     background: #6a6565db;
 }
 
@@ -22,20 +22,24 @@ hr {
 }
 
 .media-dim {
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
 }
 
-@media (min-width: 40em) {
+
+.img-head {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+@media (max-width:770px) {
     .img-head {
-        font-size: 50px;
+        font-size: 30px;
+        font-weight: 50;
     }
 }
 
-.img-head {
-    font-size: 3.0rem;
-    font-weight: 400;
-}
+
 
 .img-head+p {
     font-weight: 300;
